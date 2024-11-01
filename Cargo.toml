@@ -39,7 +39,7 @@ error-stack = { version = "0.5.0", default-features = false, features = [
     "std",
 ] }
 async-trait = { version = "0.1.80", default-features = false }
-regex = { version = "1.9.4", features = ["perf"], default-features = false }
+regex = { version = "1.11.1", features = ["perf"], default-features = false }
 futures = { version = "0.3.30", default-features = false, features = ["alloc"] }
 mini-moka = { version = "0.10", default-features = false, features = [
     "sync",
